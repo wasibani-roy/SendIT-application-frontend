@@ -22,7 +22,7 @@ const Login = ({ handleChange, handleSubmit }) => (
             <label htmlFor="password">Password</label>
             <input 
               className="form-control"
-              name="password"
+              id="password"
               type="Password" 
               placeholder="enter password"
               onChange={handleChange}
@@ -31,7 +31,7 @@ const Login = ({ handleChange, handleSubmit }) => (
           <input id="login-button" type="submit" value="Log In" className="btn btn-primary"/>
           <div className="text-primary">
             Don&apos;t have an account?
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/register">Sign Up</Link>
           </div>
         </form>
       </div>
