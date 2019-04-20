@@ -1,11 +1,14 @@
 const path = require("path");
+const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "index-bundle.js"
+    filename: "index-bundle.js",
+    publicPath: "/",
   },
   module: {
     rules: [
@@ -19,9 +22,17 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       },
       {
-        test: /\.(png|jpg)$/,
-        include: path.join(__dirname, 'static/images'),
-        loader: 'file-loader'
+        test: /\.(jpg|jpeg|gif|png|svg)$/i,
+        use: [
+          "file-loader",
+          {
+            loader: "image-webpack-loader",
+            options: {
+              bypassOnDebug: true,
+              disable: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
@@ -37,12 +48,18 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    historyApiFallback: true
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html"
     }),
-  ]
+    new webpack.HotModuleReplacementPlugin(),
+    new Dotenv({
+      path: path.resolve(__dirname, ".env"),
+      systemvars: true,
+    }),
+  ],
+  devServer: {
+    contentBase: path.join(__dirname, "src"),
+    historyApiFallback: true 
+  }
 };

@@ -1,9 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
+exports[`handle Invoke login should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <div
+    className="login background-image"
+  >
+    <Login
+      handleChange={[Function]}
+      handleSubmit={[Function]}
+    />
+  </div>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -18,14 +25,21 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Routes />,
+      "children": <Login
+        handleChange={[Function]}
+        handleSubmit={[Function]}
+      />,
+      "className": "login background-image",
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "function",
-      "props": Object {},
+      "props": Object {
+        "handleChange": [Function],
+        "handleSubmit": [Function],
+      },
       "ref": null,
       "rendered": null,
       "type": [Function],
@@ -38,14 +52,21 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Routes />,
+        "children": <Login
+          handleChange={[Function]}
+          handleSubmit={[Function]}
+        />,
+        "className": "login background-image",
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "handleChange": [Function],
+          "handleSubmit": [Function],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -77,6 +98,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

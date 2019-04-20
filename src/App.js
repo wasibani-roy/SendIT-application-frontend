@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-
-import './styles/App.css';
+import Routes from "./routes"
+import "./assests/styles/App.css";
+import "./assests/styles/bootstrap.css"
 
 class App extends Component {
     render() {
         return (
             <div>
-                <h1>My React App!</h1>
+                <Routes />
             </div>
         );
     }
