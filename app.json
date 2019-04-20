@@ -8,6 +8,9 @@
       }
     ],
     "env": {
+      "API_URL": {
+        "required": true
+      }
     },
     "formation": {
       "web": {

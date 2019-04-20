@@ -29,10 +29,7 @@ describe('login action', () => {
     test('should login user', () => {
       moxios.stubRequest(url, {
         status: statusCode,
-        response: {
-            access_token: 'dgsggyreiyfg678yu8ve7bbo8',
-            message: 'You have successfully logged in',
-        }
+        response: data
       });
 
       return LoginAction(userData).then(() => {
