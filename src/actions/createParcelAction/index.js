@@ -11,7 +11,7 @@ const Header = {
   },
 };
 
-const CreateParcel = (data) => {
+const CreateParcel = (data, obj) => {
   const parcel = {
     parcel_name: data.parcel_name,
     receiver: data.receiver,
@@ -26,6 +26,8 @@ const CreateParcel = (data) => {
         hideProgressBar: false,
         pauseOnHover: true,
       });
+      obj.history.push("/parcels");
+      
   }).catch((err) => {
     toast.error(err.response.data.message, {
         position: toast.POSITION.TOP_CENTER,
