@@ -9,7 +9,7 @@ class ParcelContainer extends Component {
     destination: '',
     price: '',
   };
-
+  
   handleText = (event) => {
     this.setState({ [event.target.id]: event.target.value });
   };
