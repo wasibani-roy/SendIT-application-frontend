@@ -4,6 +4,7 @@ import {ToastContainer} from 'react-toastify';
 import history from '../commons/history';
 import LoginContainer from '../container/loginContainer';
 import SiginupContainer from '../container/signupContainer';
+import ParcelContainer from '../container/createParcelContainer';
 
 const Routes = () => {
   return (
@@ -14,7 +15,7 @@ const Routes = () => {
         <Route path="/" component={LoginContainer} exact />
         <Route path="/login" component={LoginContainer} />
         <Route path="/register" component={SiginupContainer} />
-        {/* <Route path="/questions" component={QuestionContainer} /> */}
+        <Route path="/create" component={ParcelContainer} />
       </Switch>
     </React.Fragment>
   </Router>
