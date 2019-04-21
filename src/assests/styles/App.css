@@ -64,7 +64,7 @@
 	background: transparent;
 	border: none;
 }
-#login-button, #signup-button{
+#login-button, #signup-button, #create-button{
 	margin-left: 40%;
 	background: #4CAF50;
 }
