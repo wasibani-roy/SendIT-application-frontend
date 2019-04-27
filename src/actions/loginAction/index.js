@@ -20,6 +20,7 @@ const LoginAction = (data, obj) => {
         pauseOnHover: true,
       });
       obj.history.push('/create');
+      setTimeout(() => window.location.reload('/create'), 100);
     }).catch(() => {
         toast.error("A user with this email and password could not be found", {
             position: toast.POSITION.TOP_CENTER,

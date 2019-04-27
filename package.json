@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "SendIT project frontend done in React/Redux",
   "main": "index.js",
+  "engines": {
+    "node": "10.15.1"
+  },
   "scripts": {
     "test": "react-scripts test -u --coverage",
     "start": "webpack-dev-server --mode development --open --hot",
