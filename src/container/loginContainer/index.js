@@ -27,7 +27,7 @@ export class LoginContainer extends Component {
         localStorage.setItem("userID", userID);
         this.props.history.push("/parcels");
         toast.success("You have successfully signed in", {
-          position: toast.POSITION.TOP_CENTER,
+          position: toast.POSITION.BOTTOM_RIGHT,
           autoClose: 3000,
           hideProgressBar: false,
           pauseOnHover: true,

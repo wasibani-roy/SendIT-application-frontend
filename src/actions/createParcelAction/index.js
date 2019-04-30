@@ -21,7 +21,7 @@ const CreateParcel = (data, obj) => {
   return axios.post(`${API_URL}/v2/parcels/`,
   parcel, Header).then((res) => {
     toast.success(res.data.message, {
-        position: toast.POSITION.TOP_CENTER,
+        position: toast.POSITION.BOTTOM_RIGHT,
         autoClose: 3000,
         hideProgressBar: false,
         pauseOnHover: true,
@@ -30,7 +30,7 @@ const CreateParcel = (data, obj) => {
       
   }).catch((err) => {
     toast.error(err.response.data.message, {
-        position: toast.POSITION.TOP_CENTER,
+        position: toast.POSITION.BOTTOM_RIGHT,
         autoClose: 3000,
         hideProgressBar: false,
         pauseOnHover: true,

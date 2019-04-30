@@ -7,7 +7,7 @@ export class LogoutPage extends Component {
     localStorage.removeItem("userID");
     this.props.history.push("/");
     toast.success("You have successfully Logged out", {
-      position: toast.POSITION.TOP_CENTER,
+      position: toast.POSITION.BOTTOM_RIGHT,
       autoClose: 3000,
       hideProgressBar: false,
       pauseOnHover: true,
