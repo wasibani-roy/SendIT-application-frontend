@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { toast } from "react-toastify";
 import CircularProgressLoader from "../../commons/progressLoader";
 import LoginAction from "../../actions/loginAction";
-
+import Navbar from "../../components/navBarComponent"
 import Login from "../../components/loginComponent";
 
 const jwt = require("jsonwebtoken");
@@ -25,9 +25,9 @@ export class LoginContainer extends Component {
       if (decoded) {
         const userID = decoded.identity.user_id;
         localStorage.setItem("userID", userID);
-        this.props.history.push("/create");
+        this.props.history.push("/parcels");
         toast.success("You have successfully signed in", {
-          position: toast.POSITION.TOP_CENTER,
+          position: toast.POSITION.BOTTOM_RIGHT,
           autoClose: 3000,
           hideProgressBar: false,
           pauseOnHover: true,
@@ -57,7 +57,8 @@ export class LoginContainer extends Component {
     const loader = this.state.loader;
     const buttonDisable = this.state.isProcessing;
     return (
-        <div className="login background-image">
+        <div className="login">
+            <Navbar />
             <CircularProgressLoader {...loader} />
             <Login
                 handleChange={this.handleChange}

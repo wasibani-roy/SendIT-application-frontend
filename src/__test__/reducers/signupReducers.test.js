@@ -18,9 +18,7 @@ describe("signupReducer", () => {
     };
   
     const successState = {
-      isSuccessful: true,
-      message: "you have successfully registered",
-      errors: {},
+      errors: {}, isSuccessful: true, message: {message: "you have successfully registered"}, token: ""
     };
   
     expect(signupReducer(initialState, successAction)).toEqual(successState);

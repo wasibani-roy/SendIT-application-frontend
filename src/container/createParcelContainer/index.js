@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Parcel from '../../components/createParcelComponent';
 import CreateParcel from '../../actions/createParcelAction';
+import NavBar from '../../components/navBarComponent'
 
 class ParcelContainer extends Component {
   state = {
@@ -21,7 +22,8 @@ class ParcelContainer extends Component {
 
   render() {
     return (
-      <div className="login background-image content-wrapper">
+      <div className="login content-wrapper">
+        <NavBar />
         <Parcel
           handleText={this.handleText}
           handleSubmit={this.handleSubmit}

@@ -11,7 +11,7 @@ const Header = {
   },
 };
 
-const CreateParcel = (data) => {
+const CreateParcel = (data, obj) => {
   const parcel = {
     parcel_name: data.parcel_name,
     receiver: data.receiver,
@@ -21,14 +21,16 @@ const CreateParcel = (data) => {
   return axios.post(`${API_URL}/v2/parcels/`,
   parcel, Header).then((res) => {
     toast.success(res.data.message, {
-        position: toast.POSITION.TOP_CENTER,
+        position: toast.POSITION.BOTTOM_RIGHT,
         autoClose: 3000,
         hideProgressBar: false,
         pauseOnHover: true,
       });
+      obj.history.push("/parcels");
+      
   }).catch((err) => {
     toast.error(err.response.data.message, {
-        position: toast.POSITION.TOP_CENTER,
+        position: toast.POSITION.BOTTOM_RIGHT,
         autoClose: 3000,
         hideProgressBar: false,
         pauseOnHover: true,

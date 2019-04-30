@@ -4,8 +4,9 @@ exports[`LoginView should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <div
-    className="login background-image"
+    className="login"
   >
+    <Navbar />
     <CircularProgressLoader
       loading={false}
       success={false}
@@ -31,6 +32,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
+        <Navbar />,
         <CircularProgressLoader
           loading={false}
           success={false}
@@ -41,10 +43,19 @@ ShallowWrapper {
           isProcessing={false}
         />,
       ],
-      "className": "login background-image",
+      "className": "login",
     },
     "ref": null,
     "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -81,6 +92,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <Navbar />,
           <CircularProgressLoader
             loading={false}
             success={false}
@@ -91,10 +103,19 @@ ShallowWrapper {
             isProcessing={false}
           />,
         ],
-        "className": "login background-image",
+        "className": "login",
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
           "instance": null,
           "key": undefined,

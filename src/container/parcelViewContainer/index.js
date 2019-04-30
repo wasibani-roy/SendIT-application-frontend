@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { ParcelItem } from "../../components/parcelItemComponent";
 import fetchParcelsAction from "../../actions/fetchParcelAction";
+import Navbar from "../../components/navBarComponent"
 
 export class Parcels extends Component {
   componentWillMount = () => {
@@ -16,9 +17,12 @@ export class Parcels extends Component {
     });
 
     return (
+      <React.Fragment>
+      <Navbar />
       <div className="col-lg-8">
         <div className="article-container">{ parcelItems }</div>
       </div>
+      </React.Fragment>
     );
   }
 }
