@@ -2,20 +2,19 @@ import ActionTypes from "../../actions/types";
 
 const initialState = {
   message: '',
-  errors: {},
+  errors: "",
   isSuccessful: false,
-  token: '',
 };
 
 const signUpReducer = (state = initialState, action) => {
   switch (action.type) {
     case ActionTypes.REGISTER_SUCCESS:
       return {
-        ...state, token: action.payload.token, isSuccessful: true, message: action.payload.message,
+        ...state, isSuccessful: true, message: action.payload,
       };
     case ActionTypes.REGISTER_FAILURE:
       return {
-        ...state, errors: { ...action.payload }, isSuccessful: false,
+        ...state, errors: action.payload, isSuccessful: false,
       };
 
     default:

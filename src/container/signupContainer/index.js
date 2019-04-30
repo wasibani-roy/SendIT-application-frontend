@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SignUp from '../../components/signupComponent';
 import SignupAction from '../../actions/signupAction';
+import Navbar from '../../components/navBarComponent';
 
 class SiginupContainer extends Component {
   state = {
@@ -21,7 +22,8 @@ class SiginupContainer extends Component {
 
   render() {
     return (
-        <div className="login background-image">
+        <div className="login">
+            <Navbar />
             <SignUp
                 handleChange={this.handleChange}
                 handleSubmit={this.handleSubmit}
