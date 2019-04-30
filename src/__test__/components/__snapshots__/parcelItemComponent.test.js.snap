@@ -1,0 +1,1074 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard component test Should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ParcelItem
+    destintion="kampala"
+    parcel_name="test parcel"
+    receiver="john"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="article-text"
+      >
+        <div
+          className="inner-text"
+        >
+          <Link
+            className="article-title"
+            to="#"
+          >
+            <h4>
+              test parcel
+            </h4>
+          </Link>
+          <p>
+            john
+          </p>
+          <div
+            className="date"
+          >
+            <table
+              className="table mb-0 borderless"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    className="p-0"
+                  >
+                    <i
+                      className="fa fa-calendar"
+                    />
+                     
+                    Delivery status
+                    <br />
+                  </td>
+                  <td
+                    className="p-0 text-center"
+                  >
+                    <i
+                      className="fa fa-clock"
+                    />
+                     
+                     Destination 
+                    <br />
+                  </td>
+                  <td
+                    className="p-0 text-center"
+                  >
+                     
+                     Location 
+                    <br />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner-text"
+        >
+          <Link
+            className="article-title"
+            to="#"
+          >
+            <h4>
+              test parcel
+            </h4>
+          </Link>
+          <p>
+            john
+          </p>
+          <div
+            className="date"
+          >
+            <table
+              className="table mb-0 borderless"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    className="p-0"
+                  >
+                    <i
+                      className="fa fa-calendar"
+                    />
+                     
+                    Delivery status
+                    <br />
+                  </td>
+                  <td
+                    className="p-0 text-center"
+                  >
+                    <i
+                      className="fa fa-clock"
+                    />
+                     
+                     Destination 
+                    <br />
+                  </td>
+                  <td
+                    className="p-0 text-center"
+                  >
+                     
+                     Location 
+                    <br />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>,
+        "className": "article-text",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Link
+              className="article-title"
+              to="#"
+            >
+              <h4>
+                test parcel
+              </h4>
+            </Link>,
+            <p>
+              john
+            </p>,
+            <div
+              className="date"
+            >
+              <table
+                className="table mb-0 borderless"
+              >
+                <tbody>
+                  <tr>
+                    <td
+                      className="p-0"
+                    >
+                      <i
+                        className="fa fa-calendar"
+                      />
+                       
+                      Delivery status
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                       
+                       Destination 
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                       
+                       Location 
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>,
+          ],
+          "className": "inner-text",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <h4>
+                test parcel
+              </h4>,
+              "className": "article-title",
+              "to": "#",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "test parcel",
+              },
+              "ref": null,
+              "rendered": "test parcel",
+              "type": "h4",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "john",
+            },
+            "ref": null,
+            "rendered": "john",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <table
+                className="table mb-0 borderless"
+              >
+                <tbody>
+                  <tr>
+                    <td
+                      className="p-0"
+                    >
+                      <i
+                        className="fa fa-calendar"
+                      />
+                       
+                      Delivery status
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                       
+                       Destination 
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                       
+                       Location 
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>,
+              "className": "date",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tbody>
+                  <tr>
+                    <td
+                      className="p-0"
+                    >
+                      <i
+                        className="fa fa-calendar"
+                      />
+                       
+                      Delivery status
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                       
+                       Destination 
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                       
+                       Location 
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>,
+                "className": "table mb-0 borderless",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <tr>
+                    <td
+                      className="p-0"
+                    >
+                      <i
+                        className="fa fa-calendar"
+                      />
+                       
+                      Delivery status
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                       
+                       Destination 
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                       
+                       Location 
+                      <br />
+                    </td>
+                  </tr>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className="p-0"
+                      >
+                        <i
+                          className="fa fa-calendar"
+                        />
+                         
+                        Delivery status
+                        <br />
+                      </td>,
+                      <td
+                        className="p-0 text-center"
+                      >
+                        <i
+                          className="fa fa-clock"
+                        />
+                         
+                         Destination 
+                        <br />
+                      </td>,
+                      <td
+                        className="p-0 text-center"
+                      >
+                         
+                         Location 
+                        <br />
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            className="fa fa-calendar"
+                          />,
+                          " ",
+                          "Delivery status",
+                          <br />,
+                          undefined,
+                        ],
+                        "className": "p-0",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-calendar",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " ",
+                        "Delivery status",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        undefined,
+                      ],
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            className="fa fa-clock"
+                          />,
+                          " ",
+                          " Destination ",
+                          <br />,
+                          undefined,
+                        ],
+                        "className": "p-0 text-center",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-clock",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " ",
+                        " Destination ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        undefined,
+                      ],
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          " ",
+                          " Location ",
+                          <br />,
+                          undefined,
+                        ],
+                        "className": "p-0 text-center",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        " ",
+                        " Location ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        undefined,
+                      ],
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                "type": "tbody",
+              },
+              "type": "table",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="article-text"
+        >
+          <div
+            className="inner-text"
+          >
+            <Link
+              className="article-title"
+              to="#"
+            >
+              <h4>
+                test parcel
+              </h4>
+            </Link>
+            <p>
+              john
+            </p>
+            <div
+              className="date"
+            >
+              <table
+                className="table mb-0 borderless"
+              >
+                <tbody>
+                  <tr>
+                    <td
+                      className="p-0"
+                    >
+                      <i
+                        className="fa fa-calendar"
+                      />
+                       
+                      Delivery status
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                       
+                       Destination 
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                       
+                       Location 
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner-text"
+          >
+            <Link
+              className="article-title"
+              to="#"
+            >
+              <h4>
+                test parcel
+              </h4>
+            </Link>
+            <p>
+              john
+            </p>
+            <div
+              className="date"
+            >
+              <table
+                className="table mb-0 borderless"
+              >
+                <tbody>
+                  <tr>
+                    <td
+                      className="p-0"
+                    >
+                      <i
+                        className="fa fa-calendar"
+                      />
+                       
+                      Delivery status
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                      <i
+                        className="fa fa-clock"
+                      />
+                       
+                       Destination 
+                      <br />
+                    </td>
+                    <td
+                      className="p-0 text-center"
+                    >
+                       
+                       Location 
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>,
+          "className": "article-text",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Link
+                className="article-title"
+                to="#"
+              >
+                <h4>
+                  test parcel
+                </h4>
+              </Link>,
+              <p>
+                john
+              </p>,
+              <div
+                className="date"
+              >
+                <table
+                  className="table mb-0 borderless"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        className="p-0"
+                      >
+                        <i
+                          className="fa fa-calendar"
+                        />
+                         
+                        Delivery status
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                        <i
+                          className="fa fa-clock"
+                        />
+                         
+                         Destination 
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                         
+                         Location 
+                        <br />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>,
+            ],
+            "className": "inner-text",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <h4>
+                  test parcel
+                </h4>,
+                "className": "article-title",
+                "to": "#",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "test parcel",
+                },
+                "ref": null,
+                "rendered": "test parcel",
+                "type": "h4",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "john",
+              },
+              "ref": null,
+              "rendered": "john",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <table
+                  className="table mb-0 borderless"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        className="p-0"
+                      >
+                        <i
+                          className="fa fa-calendar"
+                        />
+                         
+                        Delivery status
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                        <i
+                          className="fa fa-clock"
+                        />
+                         
+                         Destination 
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                         
+                         Location 
+                        <br />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>,
+                "className": "date",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <tbody>
+                    <tr>
+                      <td
+                        className="p-0"
+                      >
+                        <i
+                          className="fa fa-calendar"
+                        />
+                         
+                        Delivery status
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                        <i
+                          className="fa fa-clock"
+                        />
+                         
+                         Destination 
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                         
+                         Location 
+                        <br />
+                      </td>
+                    </tr>
+                  </tbody>,
+                  "className": "table mb-0 borderless",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <tr>
+                      <td
+                        className="p-0"
+                      >
+                        <i
+                          className="fa fa-calendar"
+                        />
+                         
+                        Delivery status
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                        <i
+                          className="fa fa-clock"
+                        />
+                         
+                         Destination 
+                        <br />
+                      </td>
+                      <td
+                        className="p-0 text-center"
+                      >
+                         
+                         Location 
+                        <br />
+                      </td>
+                    </tr>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className="p-0"
+                        >
+                          <i
+                            className="fa fa-calendar"
+                          />
+                           
+                          Delivery status
+                          <br />
+                        </td>,
+                        <td
+                          className="p-0 text-center"
+                        >
+                          <i
+                            className="fa fa-clock"
+                          />
+                           
+                           Destination 
+                          <br />
+                        </td>,
+                        <td
+                          className="p-0 text-center"
+                        >
+                           
+                           Location 
+                          <br />
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="fa fa-calendar"
+                            />,
+                            " ",
+                            "Delivery status",
+                            <br />,
+                            undefined,
+                          ],
+                          "className": "p-0",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fa fa-calendar",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          " ",
+                          "Delivery status",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          undefined,
+                        ],
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              className="fa fa-clock"
+                            />,
+                            " ",
+                            " Destination ",
+                            <br />,
+                            undefined,
+                          ],
+                          "className": "p-0 text-center",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fa fa-clock",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          " ",
+                          " Destination ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          undefined,
+                        ],
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            " ",
+                            " Location ",
+                            <br />,
+                            undefined,
+                          ],
+                          "className": "p-0 text-center",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          " ",
+                          " Location ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          undefined,
+                        ],
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  "type": "tbody",
+                },
+                "type": "table",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

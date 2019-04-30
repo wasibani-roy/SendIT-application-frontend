@@ -5,6 +5,7 @@ import history from '../commons/history';
 import LoginContainer from '../container/loginContainer';
 import SiginupContainer from '../container/signupContainer';
 import ParcelContainer from '../container/createParcelContainer';
+import Parcels from '../container/parcelViewContainer'
 
 const Routes = () => {
   return (
@@ -16,6 +17,7 @@ const Routes = () => {
         <Route path="/login" component={LoginContainer} />
         <Route path="/register" component={SiginupContainer} />
         <Route path="/create" component={ParcelContainer} />
+        <Route path="/parcels" component={Parcels} />
       </Switch>
     </React.Fragment>
   </Router>

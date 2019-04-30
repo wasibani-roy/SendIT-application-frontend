@@ -1,14 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`handle Invoke login should render without crashing 1`] = `
+exports[`LoginView should render without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <div
     className="login background-image"
   >
+    <CircularProgressLoader
+      loading={false}
+      success={false}
+    />
     <Login
-      handleChange={[Function]}
+      errors=""
       handleSubmit={[Function]}
+      isProcessing={false}
     />
   </div>,
   Symbol(enzyme.__renderer__): Object {
@@ -25,25 +30,48 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Login
-        handleChange={[Function]}
-        handleSubmit={[Function]}
-      />,
+      "children": Array [
+        <CircularProgressLoader
+          loading={false}
+          success={false}
+        />,
+        <Login
+          errors=""
+          handleSubmit={[Function]}
+          isProcessing={false}
+        />,
+      ],
       "className": "login background-image",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "handleChange": [Function],
-        "handleSubmit": [Function],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "loading": false,
+          "success": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "errors": "",
+          "handleChange": undefined,
+          "handleSubmit": [Function],
+          "isProcessing": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -52,25 +80,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Login
-          handleChange={[Function]}
-          handleSubmit={[Function]}
-        />,
+        "children": Array [
+          <CircularProgressLoader
+            loading={false}
+            success={false}
+          />,
+          <Login
+            errors=""
+            handleSubmit={[Function]}
+            isProcessing={false}
+          />,
+        ],
         "className": "login background-image",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "handleChange": [Function],
-          "handleSubmit": [Function],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "loading": false,
+            "success": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "errors": "",
+            "handleChange": undefined,
+            "handleSubmit": [Function],
+            "isProcessing": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
